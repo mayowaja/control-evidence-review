@@ -1,0 +1,5 @@
+control_id,owner,max_age_days
+IAM-01,Identity,30
+LOG-01,Platform,14
+BKP-01,Operations,30
+ENC-01,Storage,90

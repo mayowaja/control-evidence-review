@@ -1,0 +1,6 @@
+control_id,checked_on,result,reference
+IAM-01,2026-10-30,pass,identity-review-06
+LOG-01,2026-10-01,pass,log-sample-12
+BKP-01,2026-10-02,pass,restore-drill-02
+BKP-01,2026-10-31,fail,restore-drill-03
+ENC-01,2026-11-10,pass,encryption-review-01
