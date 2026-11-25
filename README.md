@@ -1,6 +1,10 @@
 # Control Evidence Review
 
-Produce a dated view of which security controls have current evidence, which checks failed and which owners need to supply fresh evidence. This is a small policy-to-engineering project for teams maintaining a control register. It runs offline with Python 3.11+ and the standard library.
+I work in policy, so asking “what evidence do we actually have?” is a familiar part of my day. As someone getting into tech, I wanted to try answering that question with a few lines of Python and two CSV files.
+
+This project takes a list of security checks and a log of their results. Pick a date and it shows who owns each check, when it was last tested and whether it needs another look. Try changing the date in the demo from 1 November to 10 November and watch what happens to the encryption check. That’s the kind of detail I enjoy turning into code.
+
+You can run this offline with Python 3.11+ and the standard library.
 
 ## Run a review
 
